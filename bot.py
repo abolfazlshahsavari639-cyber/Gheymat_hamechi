@@ -7,7 +7,7 @@ import threading
 from flask import Flask
 
 TELEGRAM_TOKEN = '8858601461:AAFzFZTwR7K1tN2vFZ-jqXyjbCs7kMJUgBk'
-GEMINI_API_KEY = 'AQ.Ab8RN6IMQ3HXrCu5a9ywKLxrFoMel2wvo5LfS7_kQbo_o7btaw'
+GEMINI_API_KEY = 'AQ.Ab8RN6KWJy78mPoRbjVxawxlnR7To2k4884dY0gxo4BijYg1wA'
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 genai.configure(api_key=GEMINI_API_KEY)
