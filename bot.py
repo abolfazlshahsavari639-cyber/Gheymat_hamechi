@@ -11,7 +11,7 @@ GEMINI_API_KEY = 'AQ.Ab8RN6IMQ3HXrCu5a9ywKLxrFoMel2wvo5LfS7_kQbo_o7btaw'
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-3.5-flash')
 
 app = Flask(__name__)
 @app.route('/')
